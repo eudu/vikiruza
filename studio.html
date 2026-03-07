@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vikiruza — Студия танцев</title>
+  <meta name="description" content="Студия танцев vikiruza — групповые и индивидуальные занятия. Латина, хастл, чувственная хореография.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Навигация -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">vikiruza</a>
+      <button class="nav__burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#about">О студии</a></li>
+        <li><a href="#directions">Направления</a></li>
+        <li><a href="#schedule">Расписание</a></li>
+        <li><a href="#prices">Цены</a></li>
+        <li><a href="#gallery">Галерея</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__content container">
+      <p class="hero__subtitle">Студия танцев</p>
+      <h1 class="hero__title">
+        viki
+        <span class="hero__title-accent">ruza</span>
+      </h1>
+      <p class="hero__tagline">Танцуй. Живи. Чувствуй.</p>
+      <div class="hero__actions">
+        <a href="#directions" class="btn btn--primary">Направления</a>
+        <a href="#contacts" class="btn btn--outline">Записаться</a>
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll" aria-label="Прокрутить вниз">
+      <span class="hero__scroll-line"></span>
+    </a>
+  </section>
+
+  <!-- О студии -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__image">
+          <img src="images/about.jpg" alt="Занятия в студии vikiruza" loading="lazy">
+        </div>
+        <div class="about__text">
+          <span class="label">О студии</span>
+          <h2 class="section__title">Место, где рождается танец</h2>
+          <p>Студия <strong>vikiruza</strong> — это пространство для тех, кто хочет научиться двигаться красиво, уверенно и свободно. Принимаем всех: от абсолютных новичков до тех, кто хочет совершенствовать мастерство.</p>
+          <p>Педагоги — практикующие танцоры с многолетним опытом преподавания. Небольшие группы позволяют уделить внимание каждому ученику.</p>
+          <ul class="about__facts">
+            <li><strong>5+</strong><span>лет работы</span></li>
+            <li><strong>200+</strong><span>учеников</span></li>
+            <li><strong>6</strong><span>направлений</span></li>
+            <li><strong>3</strong><span>педагога</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Направления -->
+  <section class="directions section section--alt" id="directions">
+    <div class="container">
+      <span class="label">Что преподаём</span>
+      <h2 class="section__title">Направления</h2>
+      <div class="directions__grid">
+        <div class="direction-card">
+          <div class="direction-card__icon">💃</div>
+          <h3>Латина</h3>
+          <p>Сальса, бачата, меренге — страстные танцы Латинской Америки. Начинаем с базы, постепенно переходим к партнёрским техникам.</p>
+          <span class="direction-card__level">Все уровни</span>
+        </div>
+        <div class="direction-card">
+          <div class="direction-card__icon">🕺</div>
+          <h3>Хастл</h3>
+          <p>Зажигательный социальный танец, который легко освоить. Идеально подходит для начинающих пар и соло.</p>
+          <span class="direction-card__level">Начинающие / Средний</span>
+        </div>
+        <div class="direction-card">
+          <div class="direction-card__icon">✨</div>
+          <h3>Чувственная хореография</h3>
+          <p>Женский стиль, пластика и растяжка. Занятия помогают раскрыть женственность и развить уверенность в движениях.</p>
+          <span class="direction-card__level">Все уровни</span>
+        </div>
+        <div class="direction-card">
+          <div class="direction-card__icon">🎭</div>
+          <h3>Шоу-программы</h3>
+          <p>Подготовка номеров для праздников, корпоративов и конкурсов. Работаем как с группами, так и с солистами.</p>
+          <span class="direction-card__level">По запросу</span>
+        </div>
+        <div class="direction-card">
+          <div class="direction-card__icon">👶</div>
+          <h3>Детские занятия</h3>
+          <p>Ритмика и хореография для детей от 5 лет. Развиваем координацию, музыкальность и любовь к движению.</p>
+          <span class="direction-card__level">От 5 лет</span>
+        </div>
+        <div class="direction-card">
+          <div class="direction-card__icon">🔥</div>
+          <h3>Стретчинг</h3>
+          <p>Развитие гибкости и правильной осанки. Занятия отлично сочетаются с любым направлением танцев.</p>
+          <span class="direction-card__level">Все уровни</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Расписание -->
+  <section class="schedule section" id="schedule">
+    <div class="container">
+      <span class="label">Когда приходить</span>
+      <h2 class="section__title">Расписание</h2>
+      <div class="schedule__table-wrap">
+        <table class="schedule__table">
+          <thead>
+            <tr>
+              <th>Направление</th>
+              <th>Пн</th>
+              <th>Вт</th>
+              <th>Ср</th>
+              <th>Чт</th>
+              <th>Пт</th>
+              <th>Сб</th>
+              <th>Вс</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Латина (начинающие)</td>
+              <td>19:00</td>
+              <td>—</td>
+              <td>19:00</td>
+              <td>—</td>
+              <td>—</td>
+              <td>11:00</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>Латина (продолжающие)</td>
+              <td>—</td>
+              <td>20:00</td>
+              <td>—</td>
+              <td>20:00</td>
+              <td>—</td>
+              <td>12:30</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>Хастл</td>
+              <td>—</td>
+              <td>19:00</td>
+              <td>—</td>
+              <td>19:00</td>
+              <td>—</td>
+              <td>—</td>
+              <td>12:00</td>
+            </tr>
+            <tr>
+              <td>Чувственная хореография</td>
+              <td>—</td>
+              <td>—</td>
+              <td>20:30</td>
+              <td>—</td>
+              <td>19:30</td>
+              <td>—</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>Детские занятия</td>
+              <td>—</td>
+              <td>16:00</td>
+              <td>—</td>
+              <td>16:00</td>
+              <td>—</td>
+              <td>10:00</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>Стретчинг</td>
+              <td>18:00</td>
+              <td>—</td>
+              <td>—</td>
+              <td>—</td>
+              <td>18:00</td>
+              <td>—</td>
+              <td>11:00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="schedule__note">Расписание может изменяться. Актуальное расписание уточняйте у администратора.</p>
+    </div>
+  </section>
+
+  <!-- Цены -->
+  <section class="prices section section--alt" id="prices">
+    <div class="container">
+      <span class="label">Стоимость</span>
+      <h2 class="section__title">Цены</h2>
+      <div class="prices__grid">
+        <div class="price-card">
+          <h3 class="price-card__title">Пробное занятие</h3>
+          <div class="price-card__price">Бесплатно</div>
+          <ul class="price-card__features">
+            <li>Одно занятие на выбор</li>
+            <li>Знакомство с преподавателем</li>
+            <li>Любое направление</li>
+          </ul>
+          <a href="#contacts" class="btn btn--outline">Записаться</a>
+        </div>
+        <div class="price-card price-card--featured">
+          <span class="price-card__badge">Популярно</span>
+          <h3 class="price-card__title">Абонемент 8 занятий</h3>
+          <div class="price-card__price">3 200 ₽</div>
+          <ul class="price-card__features">
+            <li>8 занятий на месяц</li>
+            <li>Любое направление</li>
+            <li>Перенос занятий</li>
+            <li>Скидка 20% от разовой цены</li>
+          </ul>
+          <a href="#contacts" class="btn btn--primary">Записаться</a>
+        </div>
+        <div class="price-card">
+          <h3 class="price-card__title">Разовое занятие</h3>
+          <div class="price-card__price">500 ₽</div>
+          <ul class="price-card__features">
+            <li>Одно занятие</li>
+            <li>Любое направление</li>
+            <li>Без предварительной записи</li>
+          </ul>
+          <a href="#contacts" class="btn btn--outline">Записаться</a>
+        </div>
+        <div class="price-card">
+          <h3 class="price-card__title">Индивидуально</h3>
+          <div class="price-card__price">от 1 500 ₽</div>
+          <ul class="price-card__features">
+            <li>Персональный урок</li>
+            <li>Удобное время</li>
+            <li>Быстрый прогресс</li>
+            <li>Постановка номера</li>
+          </ul>
+          <a href="#contacts" class="btn btn--outline">Уточнить</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Галерея -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <span class="label">Наша жизнь</span>
+      <h2 class="section__title">Галерея</h2>
+      <div class="gallery__grid">
+        <div class="gallery__item gallery__item--wide">
+          <img src="images/gallery-1.jpg" alt="Занятия по латине" loading="lazy">
+        </div>
+        <div class="gallery__item">
+          <img src="images/gallery-2.jpg" alt="Выступление" loading="lazy">
+        </div>
+        <div class="gallery__item">
+          <img src="images/gallery-3.jpg" alt="Детские занятия" loading="lazy">
+        </div>
+        <div class="gallery__item">
+          <img src="images/gallery-4.jpg" alt="Отчётный концерт" loading="lazy">
+        </div>
+        <div class="gallery__item gallery__item--wide">
+          <img src="images/gallery-5.jpg" alt="Хореография" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section class="contacts section section--alt" id="contacts">
+    <div class="container">
+      <span class="label">Найти нас</span>
+      <h2 class="section__title">Контакты</h2>
+      <div class="contacts__grid">
+        <div class="contacts__info">
+          <div class="contact-item">
+            <span class="contact-item__icon">📍</span>
+            <div>
+              <strong>Адрес</strong>
+              <p>г. Москва, ул. Примерная, д. 1</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-item__icon">📞</span>
+            <div>
+              <strong>Телефон</strong>
+              <p><a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-item__icon">✉️</span>
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:info@vikiruza.ru">info@vikiruza.ru</a></p>
+            </div>
+          </div>
+          <div class="contacts__socials">
+            <a href="https://www.tiktok.com/@vikiruza" class="social-link" target="_blank" rel="noopener" aria-label="TikTok">TikTok</a>
+            <a href="https://www.instagram.com/vikiruza" class="social-link" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+            <a href="https://vk.ru/vikiruza" class="social-link" target="_blank" rel="noopener" aria-label="ВКонтакте">ВКонтакте</a>
+            <a href="https://t.me/vikiruza" class="social-link" target="_blank" rel="noopener" aria-label="Telegram">Telegram</a>
+          </div>
+          <div class="contacts__cta">
+            <p>Запись на пробное занятие — в мессенджер или по телефону:</p>
+            <a href="https://t.me/vikiruza" class="btn btn--primary">Написать в Telegram</a>
+          </div>
+        </div>
+        <div class="contacts__map">
+          <!-- вставить iframe с картой -->
+          <div class="contacts__map-placeholder">
+            <span>Карта</span>
+            <p>Вставьте iframe с Яндекс.Картами или Google Maps</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2025 vikiruza</p>
+      <a href="index.html" class="footer__back-link">← vikiruza.ru</a>
+    </div>
+  </footer>
+
+  <script>
+    // мобильное меню
+    const burger = document.getElementById('burger');
+    const navLinks = document.getElementById('nav-links');
+    burger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      burger.classList.toggle('active');
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        burger.classList.remove('active');
+      });
+    });
+
+    // прилипающая навигация
+    const header = document.querySelector('.header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('header--scrolled', window.scrollY > 50);
+    });
+  </script>
+
+</body>
+</html>
