@@ -578,6 +578,18 @@ ul { list-style: none; }
   -webkit-text-fill-color: #fff;
 }
 
+.price-card__old-price {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  text-decoration: line-through;
+  margin-bottom: 2px;
+}
+
+.price-card--featured .price-card__old-price {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .price-card__features {
   flex: 1;
   display: flex;
