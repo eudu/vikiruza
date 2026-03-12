@@ -254,7 +254,8 @@ ul { list-style: none; }
 }
 
 .hero__title {
-  font-size: min(calc((100vw - 48px) / 8.5), 7.5rem);
+  font-size: min(calc((100vw - 48px) / 8.5), 5.5rem);
+  white-space: nowrap;
   font-weight: 800;
   line-height: 0.88;
   letter-spacing: -0.04em;
