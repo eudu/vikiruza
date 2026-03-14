@@ -380,6 +380,14 @@ ul { list-style: none; }
   color: var(--color-text-muted);
 }
 
+.about__tagline {
+  margin-top: 24px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-purple);
+}
+
 /* ===== НАПРАВЛЕНИЯ ===== */
 .directions__grid {
   display: grid;
